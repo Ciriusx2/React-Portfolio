@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-family: "Inter",sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+/* dark-mode.css */
+
+/* Apply a darker background to the body and lighter text */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  /* Navbar adjustments */
+  .dark-mode .navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+  }
+  
+  .dark-mode .navbar a {
+    color: #bbbbbb;
+  }
+  
+  .dark-mode .navbar a:hover {
+    color: #ffffff;
+  }
+  
+  /* Button styling in dark mode */
+  .dark-mode button {
+    background-color: #333333;
+    color: #e0e0e0;
+  }
+  
+  .dark-mode button:hover {
+    background-color: #444444;
+    color: #ffffff;
+  }
+  
+  /* Links styling */
+  .dark-mode a {
+    color: #bb86fc;
+  }
+  
+  .dark-mode a:hover {
+    color: #ffffff;
+  }
+  
+  /* Cards or containers */
+  .dark-mode .card, .dark-mode .container {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #333333;
+  }
+  
+  /* Input fields */
+  .dark-mode input, .dark-mode textarea {
+    background-color: #333333;
+    color: #e0e0e0;
+    border: 1px solid #555555;
+  }
+  
+  .dark-mode input::placeholder, .dark-mode textarea::placeholder {
+    color: #999999;
+  }
+  
+  /* Specific section styles */
+  .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+    color: #ffffff;
+  }
+  
+  .dark-mode p {
+    color: #d0d0d0;
+  }
+  
+  /* Icons or SVGs */
+  .dark-mode svg {
+    fill: #e0e0e0;
+  }
+  
+  /* Footer */
+  .dark-mode footer {
+    background-color: #1a1a1a;
+    color: #cccccc;
+  }
+  
